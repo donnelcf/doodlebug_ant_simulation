@@ -1,0 +1,68 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/Ant.h
+iostream
+-
+Organism.h
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/Organism.h
+Grid.h
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/Grid.h
+
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/Doodlebug.h
+iostream
+-
+Organism.h
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/Organism.h
+
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/Grid.cpp
+iostream
+-
+Grid.h
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/Grid.h
+Organism.h
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/Organism.h
+Ant.h
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/Ant.h
+Doodlebug.h
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/Doodlebug.h
+OrganismType.h
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/OrganismType.h
+
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/Grid.h
+iostream
+-
+Organism.h
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/Organism.h
+OrganismType.h
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/OrganismType.h
+
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/Organism.h
+iostream
+-
+Grid.h
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/Grid.h
+OrganismType.h
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/OrganismType.h
+
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/OrganismType.h
+
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/main.cpp
+iostream
+-
+cstdlib
+-
+ctime
+-
+Grid.h
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/Grid.h
+Ant.h
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/Ant.h
+Doodlebug.h
+/Users/christopherdonnelly/Documents/NYU Bridge/cad605_hw13/Doodlebug.h
+
